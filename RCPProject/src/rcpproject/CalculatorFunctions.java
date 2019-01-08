@@ -26,7 +26,7 @@ public class CalculatorFunctions extends JFrame implements ActionListener {
         try { 
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName()); 
         } 
-        catch (Exception e) { 
+        catch (Exception e)  { 
             System.err.println(e.getMessage()); 
         } 
         CalculatorFunctions c = new CalculatorFunctions(); 
