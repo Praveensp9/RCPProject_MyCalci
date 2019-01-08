@@ -9,7 +9,7 @@ import org.eclipse.e4.ui.di.Focus;
 import java.awt.*; 
 public class CalculatorFunctions extends JFrame implements ActionListener {
     static JFrame f; 
-    static JTextField l; 
+    static JTextField l;  
     String s0, s1, s2;
     CalculatorFunctions() 
     { 
